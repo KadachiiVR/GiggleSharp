@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiggleSharp", "GiggleSharp\GiggleSharp.csproj", "{F32A2D08-FF6F-4E84-8133-770242B58FEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F32A2D08-FF6F-4E84-8133-770242B58FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F32A2D08-FF6F-4E84-8133-770242B58FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F32A2D08-FF6F-4E84-8133-770242B58FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F32A2D08-FF6F-4E84-8133-770242B58FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {987E81F4-B6B4-4C08-AE99-C26B30D7D243}
+	EndGlobalSection
+EndGlobal
