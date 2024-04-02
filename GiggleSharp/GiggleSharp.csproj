@@ -4,16 +4,16 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Configuration.Ini" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.0" />
+    <PackageReference Include="Rug.Osc" Version="1.2.5" />
   </ItemGroup>
+
   <ItemGroup>
-    <Reference Include="VRCOscQueryLib">
-      <HintPath>libs\vrc-oscquery-lib.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\vrc-oscquery-lib\vrc-oscquery-lib\vrc-oscquery-lib.csproj" />
   </ItemGroup>
 
 </Project>
