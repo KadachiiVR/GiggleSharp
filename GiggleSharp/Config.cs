@@ -9,7 +9,7 @@ using System.Runtime.CompilerServices;
 
 namespace GiggleSharp
 {
-    internal class Config
+    public class Config
     {
         private IConfiguration cfg;
         private Dictionary<string, string> defaults;

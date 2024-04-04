@@ -164,7 +164,9 @@ namespace GiggleSharp
             foreach (string s in ips_string.Split(' ', StringSplitOptions.TrimEntries))
             {
                 var ip = IPAddress.Parse(s);
-                this.senders.Add(new OscSender(ip, MOTOR_PORT));
+                var sender = new OscSender(ip, MOTOR_PORT);
+                sender.Connect();
+                this.senders.Add(sender);
             }
             ConsoleDisplay.Instance.RegisterChannel($"Zone: {this.name}", 255f);
         }
